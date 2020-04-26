@@ -1,0 +1,64 @@
+* {
+    color: whitesmoke;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+form {
+    background-color: rgb(135, 39, 173);
+    width: 50%;
+    margin: auto;
+}
+
+td label {
+    margin-right: 40px;
+}
+
+#dob {
+    color: black;
+}
+
+h1 {
+    text-align: center;
+    color: rgb(135, 39, 173);
+    text-decoration: underline;
+}
+
+input {
+    color: black;
+}
+
+textarea {
+    color: black;
+}
+
+.lbl {
+    margin-left: 0px !important;
+}
+
+tr {
+    margin-bottom: 5px;
+}
+
+.btn {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+h2 {
+    color: green !important;
+    text-align: center;
+}
+
+h4 a {
+    color: blue !important;
+}
+
+h4 {
+    text-align: center;
+}
+
+button {
+    border-radius: 4px;
+    color: black;
+    text-align: center;
+}

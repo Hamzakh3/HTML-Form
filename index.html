@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./Style/style.css">
+</head>
+
+<body>
+
+    <h1>
+        <img src="./Image/Saylani-logo.png" alt="Saylani-Logo" class="logo" /> <br> Stident Registration Form
+    </h1>
+    <form action="./Page/welcome.html" method="POST">
+        <table>
+            <tr>
+                <td>
+                    <label for="fName">First Name</label>
+                </td>
+                <td>
+                    <input type="text" id="fName" maxlength="30" placeholder="Enter First Name" required>
+                    <label> (Max 30 characters a-z and A-Z)</label>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="lName">Last Name</label>
+                </td>
+                <td>
+                    <input type="text" id="lName" maxlength="30" placeholder="Enter Last Name" required>
+                    <label> (Max 30 characters a-z and A-Z)</label>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="dob">Date of Birth</label>
+                </td>
+                <td>
+                    <input type="date" id="dob" required>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="email">Email</label>
+                </td>
+                <td>
+                    <input type="email" id="email" placeholder="Enter Email Address" required>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="mob">Mobile Number</label>
+                </td>
+                <td>
+                    <input type="number" id="mob" placeholder="Enter Mobile Number" maxlength="10" required>
+                    <label> (Max 10 Digits)</label>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label>Gender</label>
+                </td>
+                <td>
+                    <input type="radio" name="gender" value="male" id="male" required /> <label class="lbl" for="male">Male</label>
+                    <input type="radio" name="gender" value="female" id="female" required /> <label class="lbl" for="female">Female</label>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="address">Address</label>
+                </td>
+                <td>
+                    <textarea name="address" id="address" cols="50" rows="5"></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="city">City</label>
+                </td>
+                <td>
+                    <input type="text" id="city" maxlength="30" placeholder="Enter City Name" required>
+                    <label> (Max 30 characters a-z and A-Z)</label>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="pin">Pin Code</label>
+                </td>
+                <td>
+                    <input type="number" id="pin" maxlength="6" placeholder="Enter PinCode" required>
+                    <label> (Max 6 digit number)</label>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="state">State</label>
+                </td>
+                <td>
+                    <input type="text" id="state" maxlength="30" placeholder="Enter State" required>
+                    <label> (Max 30 characters a-z and A-Z)</label>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="country">Country</label>
+                </td>
+                <td>
+                    <input type="text" id="country" maxlength="30" placeholder="Enter Country" required>
+                    <label> (Max 30 characters a-z and A-Z)</label>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label>Hobbies</label>
+                </td>
+                <td>
+                    <input type="checkbox" id="drawing" name="hobbies" value="drawing">
+                    <label for="drwaing" class="lbl">Drawing</label>
+                    <input type="checkbox" id="singing" name="hobbies" value="singing">
+                    <label for="singing" class="lbl">Singing</label>
+                    <input type="checkbox" id="sketching" name="hobbies" value="sketching">
+                    <label for="sketching" class="lbl">Sketching</label>
+                    <br>
+                    <input type="checkbox" id="other" name="hobbies" value="other">
+                    <label for="other" class="lbl">Other</label>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label>Qualification</label>
+                </td>
+                <td>
+                    <table style="text-align: center;">
+                        <tr class="transCol">
+                            <td>S. No</td>
+                            <td>Examination</td>
+                            <td>Board</td>
+                            <td>Percentage</td>
+                            <td>Year of Passing</td>
+                        </tr>
+                        <tr>
+                            <td class="transCol">1</td>
+                            <td class="transCol">Class X</td>
+                            <td><input type="text" maxlength="10"></td>
+                            <td><input type="number" maxlength="2"></td>
+                            <td><input type="number" maxlength="4"></td>
+                        </tr>
+                        <tr>
+                            <td class="transCol">2</td>
+                            <td class="transCol">Class XII</td>
+                            <td><input type="text" maxlength="10"></td>
+                            <td><input type="number" maxlength="2"></td>
+                            <td><input type="number" maxlength="4"></td>
+                        </tr>
+                        <tr>
+                            <td class="transCol">3</td>
+                            <td class="transCol">Graduation</td>
+                            <td><input type="text" maxlength="10"></td>
+                            <td><input type="number" maxlength="2"></td>
+                            <td><input type="number" maxlength="4"></td>
+                        </tr>
+                        <tr>
+                            <td class="transCol">5</td>
+                            <td class="transCol">Masters</td>
+                            <td><input type="text" maxlength="10"></td>
+                            <td><input type="number" maxlength="2"></td>
+                            <td><input type="number" maxlength="4"></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td>(10 Char Max)</td>
+                            <td>(2 Digits Round of)</td>
+                            <td>(4 Digits)</td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label>Course <br> Applied For</label>
+                </td>
+                <td>
+                    <input type="radio" name="courses" value="BCA" id="BCA" required /> <label class="lbl" for="BCA">BCA</label>
+                    <input type="radio" name="courses" value="B.Com" id="B.Com" required /> <label class="lbl" for="B.Com">B.Com</label>
+                    <input type="radio" name="courses" value="B.Sc" id="B.Sc" required /> <label class="lbl" for="B.Sc">B.Sc</label>
+                    <input type="radio" name="courses" value="B.A" id="B.A" required /> <label class="lbl" for="B.A">B.A</label>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" class="btn">
+                    <button type="submit">Submit</button>
+                    <button type="button" onclick="window.location.reload()">Reset</button>
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+
+</html>
